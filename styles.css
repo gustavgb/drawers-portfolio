@@ -1,0 +1,44 @@
+canvas {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#hit-boxes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#drawer-top {
+  position: absolute;
+  top: calc(50% - 24vh);
+  left: calc(50% - 18.4vw);
+  width: 37.2vw;
+  height: 17.5vh;
+}
+
+#drawer-middle {
+  position: absolute;
+  top: calc(50% - 1.9vh);
+  left: calc(50% - 18.4vw);
+  width: 37.5vw;
+  height: 17.5vh;
+}
+
+#drawer-bottom {
+  position: absolute;
+  top: calc(50% + 21.5vh);
+  left: calc(50% - 18.5vw);
+  width: 38vw;
+  height: 18.5vh;
+}

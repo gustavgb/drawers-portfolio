@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/gustavgb/drawers-portfolio/issues"
   },
-  "homepage": "https://github.com/gustavgb/drawers-portfolio#readme"
+  "homepage": "https://github.com/gustavgb/drawers-portfolio#readme",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
 }
